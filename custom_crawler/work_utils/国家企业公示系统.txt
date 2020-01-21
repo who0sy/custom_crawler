@@ -1,0 +1,108 @@
+# 经营异常公告
+# 列表页POST
+https://app.gsxt.gov.cn/gsxt/affiche-query-area-info-paperall.html 
+
+noticeType=11&areaid=100000&noticeTitle=&regOrg=&start=1&sourceType=W
+noticeType=11&areaid=100000&noticeTitle=&regOrg=&start=2&sourceType=W
+
+charset: utf-8
+Accept-Encoding: gzip
+accept: application/json
+referer: https://servicewechat.com/wx5b0ed3b8c0499950/7/page-frame.html
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0
+Content-Length: 69
+Host: app.gsxt.gov.cn
+Connection: Keep-Alive
+# 详情GET
+https://app.gsxt.gov.cn/gsxt/affiche-query-info-afficheBaseDetailInfo-81012885236566.html?sourceType=W 
+
+charset: utf-8
+Accept-Encoding: gzip
+referer: https://servicewechat.com/wx5b0ed3b8c0499950/7/page-frame.html
+content-type: application/json
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0
+Host: app.gsxt.gov.cn
+Connection: Keep-Alive
+
+
+# 严重违法失信公告
+# 列表POST
+https://app.gsxt.gov.cn/gsxt/affiche-query-area-info-paperall.html 
+noticeType=21&areaid=100000&noticeTitle=&regOrg=&start=1&sourceType=W
+
+charset: utf-8
+Accept-Encoding: gzip
+accept: application/json
+referer: https://servicewechat.com/wx5b0ed3b8c0499950/7/page-frame.html
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0
+Content-Length: 69
+Host: app.gsxt.gov.cn
+Connection: Keep-Alive
+# 详情GET
+https://app.gsxt.gov.cn/gsxt/affiche-query-info-afficheBaseDetailInfo-154000000600597742.html?sourceType=W
+
+charset: utf-8
+Accept-Encoding: gzip
+referer: https://servicewechat.com/wx5b0ed3b8c0499950/7/page-frame.html
+content-type: application/json
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0
+Host: app.gsxt.gov.cn
+Connection: Keep-Alive
+
+
+# 行政处罚公告
+# 列表POST
+https://app.gsxt.gov.cn/gsxt/affiche-query-area-info-paperall.html
+noticeType=40&areaid=100000&noticeTitle=&regOrg=&start=1&sourceType=W
+
+charset: utf-8
+Accept-Encoding: gzip
+accept: application/json
+referer: https://servicewechat.com/wx5b0ed3b8c0499950/7/page-frame.html
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0
+Content-Length: 69
+Host: app.gsxt.gov.cn
+Connection: Keep-Alive
+
+# 详情GET文件PDF
+https://app.gsxt.gov.cn/gsxt/affiche-query-info-punish-app.html?caseId=141000013246590719&sourceType=W 
+charset: utf-8
+Accept-Encoding: gzip
+referer: https://servicewechat.com/wx5b0ed3b8c0499950/7/page-frame.html
+content-type: application/json
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0
+Host: app.gsxt.gov.cn
+Connection: Keep-Alive
+
+
+
+
+# 搜索接口
+# 列表POST
+https://app.gsxt.gov.cn/gsxt/corp-query-app-search-1.html
+https://app.gsxt.gov.cn/gsxt/corp-query-app-search-2.html
+conditions=%7B%22excep_tab%22%3A%220%22%2C%22ill_tab%22%3A%220%22%2C%22area%22%3A%220%22%2C%22cStatus%22%3A%220%22%2C%22xzxk%22%3A%220%22%2C%22xzcf%22%3A%220%22%2C%22dydj%22%3A%220%22%7D&searchword=%E5%B0%8F%E7%B1%B3&sourceType=W
+
+charset: utf-8
+Accept-Encoding: gzip
+accept: application/json
+referer: https://servicewechat.com/wx5b0ed3b8c0499950/7/page-frame.html
+content-type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0
+Content-Length: 229
+Host: app.gsxt.gov.cn
+Connection: Keep-Alive
+
+# 详情POST
+https://app.gsxt.gov.cn/gsxt/corp-query-entprise-info-primaryinfoapp-entbaseInfo-322B14C73C36DD35F11AC91BDF34FB7DEB9BE79BE79B6449354935493549DF17CD41EF4189F9B847-1579572273915.html?nodeNum=420000&entType=4533&sourceType=W 
+charset: utf-8
+Accept-Encoding: gzip
+referer: https://servicewechat.com/wx5b0ed3b8c0499950/7/page-frame.html
+content-type: application/json
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; MI 5 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0
+Content-Length: 0
+Host: app.gsxt.gov.cn
+Connection: Keep-Alive

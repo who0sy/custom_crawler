@@ -241,7 +241,7 @@ class FreezeCollection(Base):
     enforcement_number = Column(String(length=64), nullable=True, comment='执行裁定文书号')
     executed_court = Column(String(length=64), nullable=True, comment='执行法院')
     executed_matters = Column(String(length=256), nullable=True, comment='执行事项')
-    executed_type = Column(String(length=64), nullable=True, comment='被执行人证件种类')
+    executed_type = Column(String(length=128), nullable=True, comment='被执行人证件种类')
     executed_number = Column(String(length=128), nullable=True, comment='被执行人证件号码')
     freeze_period_from = Column(String(length=32), nullable=True, comment='冻结期限自')
     freeze_period_end = Column(String(length=32), nullable=True, comment='冻结期限至')

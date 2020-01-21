@@ -101,10 +101,10 @@ class BaiduXinSpider(scrapy.Spider):
             # 把搜索词添加到bloomfilter过滤掉
             if self.bloomfilter_client.is_exist(keyword):
                 logger.info(f"{keyword}--- 被过滤了")
+                return
             else:
                 logger.info(f"该搜索词没有搜索结果--{keyword}--添加到布隆过滤器")
                 self.bloomfilter_client.add(keyword)
-            return
         else:
             # 翻页页码总数--如果总页数不大于100直接翻页完成--大于100继续添加条件
             totalPageNum = results.get('data').get('totalPageNum')
@@ -268,7 +268,11 @@ class BaiduXinSpider(scrapy.Spider):
         pid = response.meta.get('pid')
         # 列表解析
         results = json.loads(response.text)
-        wenshu_list = results.get('data').get('list')
+        wenshu_list = results.get('data')
+        if wenshu_list:
+            wenshu_list = wenshu_list.get('list')
+        else:
+            wenshu_list = {}
         if not wenshu_list:
             return
         for data in wenshu_list:
