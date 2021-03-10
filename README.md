@@ -40,13 +40,3 @@ pip install -r requirements.txt
 - [x] 兼容py2
 
 ---
-
-
-### 赞助作者
-甲鱼说，咖啡是灵魂的饮料，买点咖啡
-
-[谢谢这些人的☕️](./coffee.md)
-
-直接转账打赏作者的辛苦劳动：
-
-<img src="https://i.imgur.com/lzM8sPs.png" width="250" />
